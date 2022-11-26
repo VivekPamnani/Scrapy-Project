@@ -1,0 +1,112 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Spartan') */
+@import url(https://fonts.googleapis.com/css?family=Spartan);
+
+a {
+    -webkit-tap-highlight-color: transparent;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+    background: url('./PmdesY.png') no-repeat;
+    background-size: auto;
+    /* min-height: 75rem; */
+    /* padding-top: 4.5rem; */
+  }
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Spartan', sans-serif;
+    padding-top: 4.5rem;
+}
+h1 {
+    font-size: 60px;
+}
+p {
+    font-size: 18px;
+    font-family: 'Spartan', sans-serif;
+}
+
+.button {
+    display: inline-block;
+    /* max-width: 300px; */
+    /* margin-top: 50px; */
+    border: 0;
+    /* padding: 0 18px; */
+    /* text-align: left; */
+    /* border-radius: 20px; */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* -moz-font-feature-settings: "liga" on; */
+    color: rgba(0, 0, 0, 0.84) !important;
+    fill: rgba(0, 0, 0, 0.84) !important;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.05);
+    font: inherit;
+    outline: none;
+}
+
+.small-btn {
+    position: center;
+    /* width: 37px; */
+    /* height: 37px; */
+    width: fit-content;
+    padding-top: 10vh;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* align-content: space-between; */
+
+}
+
+.rounded-pill {
+
+    /* border-radius: initial;
+    border-color: steelblue;
+    border-style: solid;
+    border-width: thick; */
+    /* box-shadow: 10px 10px 10px rgb(rgb(124, 55, 55), rgb(111, 167, 111), rgb(104, 104, 153)); */
+    /* box-shadow: 2mm; */
+    border-color:#cccccc;
+    box-shadow:0 0 10px #cccccc;
+}
+
+.glogin:hover {
+    outline:none;
+    border-color:#aaaaaa;
+    box-shadow:0 0 50px #aaaaaa;
+}
+
+.button:hover {
+    outline: none;
+    border-color: #444444;
+    box-shadow: #444444;
+}
+
+.button .svgIcon {
+    vertical-align: middle;
+    fill: rgba(0, 0, 0, 0.54);
+    padding-right: 4px;
+    height: 37px;
+    display: inline-block;
+}
+
+.img-fluid {
+    border: 5px solid #222;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.container {
+    max-width: 100%;
+    /* border: 1px solid #fff */
+}
+
+.row {
+    padding: 5px;
+    justify-content: center;
+    /* border: 1px solid #fff; */
+}
+
+.col {
+    /* padding: 5px; */
+    justify-content: center;
+    /* border: 1px solid #fff; */
+}
